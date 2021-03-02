@@ -1,0 +1,79 @@
+<html>
+<head>
+
+
+<script>
+
+var a
+//a = 123;
+//document.write(a);
+//a="Łańcuch znakowy"; 
+//document.write(a);
+
+var tablica1 = new Array(45, 3, "Monika", 45.32)
+
+for (z in tablica1){
+    document.write(tablica1[z] + " ");
+}
+document.write(" <br/>" );
+document.write(" <br/>" );
+document.write("Wyświetlenie tablicy <br/>" );
+
+var tablica2 = new Array ( "Malinowski", "Sączewska", "Stefano", "Lalamido", "Agnieszka", "Michalina", "Leszek")
+for (a in tablica2){
+    document.write(tablica2[a]+ " ");
+}
+document.write(" <br/>" );
+document.write(" <br/>" );
+
+document.write("Tablica alfabetycznie <br/>" );
+
+tablica2.sort()
+for (a in tablica2){
+    document.write(tablica2[a]+ " ");
+}
+document.write(" <br/>" );
+document.write(" <br/>" );
+
+document.write("Tablica odwrotnie <br/>" );
+
+tablica2.reverse()
+for (a in tablica2){
+    document.write(tablica2[a]+ " ");
+}
+document.write(" <br/>" );
+document.write(" <br/>" );
+
+var nazwiska = tablica2.join(", ")
+document.write(nazwiska);
+
+document.write(" <br/>" );
+document.write(" <br/>" );
+
+
+var a = parseInt(prompt('Podaj pierwsza liczbę').value);
+ document.write(a);
+ document.write(" <br/>" );
+var b = parseInt(prompt('Podaj drugą liczbę').value);
+ document.write(b);
+ document.write(" <br/>" );
+
+
+ document.write(a + b);
+ document.write(" <br/>" );
+ document.write(a - b);
+ document.write(" <br/>" );
+ document.write(a * b);
+ document.write(" <br/>" );
+ document.write(a / b);
+ document.write(" <br/>" );
+ document.write(a % b);
+  
+
+</script>
+
+</head>
+
+
+
+</html>
